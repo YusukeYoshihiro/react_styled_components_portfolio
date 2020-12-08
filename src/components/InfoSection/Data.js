@@ -8,7 +8,7 @@ export const homeObjOne = {
    topLine: 'About me',
    headline: 'Who am I ?',
    description: 'I\'m Yusuke, Japanese Front-End Developer, based in Vancouver. I\'m passionate about coding, cooking, hockey. Specifically, expert in React, React-Redux. Constantly learning web development, especially MERN stacks.',
-   buttonLabel: 'Contact Me!',
+   buttonLabel: 'Resume',
    imgStart: true,
    // img: require(../../images/about_img.svg),
    alt: 'AboutMe',

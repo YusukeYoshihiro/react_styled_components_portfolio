@@ -94,7 +94,6 @@ export const SkillsWrap = styled.div`
 `;
 
 
-
 export const BtnWrap = styled.div`
    display: flex;
    justify-content: flex-start;
