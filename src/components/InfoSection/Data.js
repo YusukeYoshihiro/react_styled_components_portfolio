@@ -6,7 +6,7 @@ export const homeObjOne = {
    lightText: true,
    lightTextDesc: true,
    topLine: 'About me',
-   headline: 'Who Am I ?',
+   headline: 'Who am I ?',
    description: 'I\'m Yusuke, Japanese Front-End Developer, based in Vancouver.',
    buttonLabel: 'Contact Me!',
    imgStart: true,
@@ -34,18 +34,18 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-   id:'works',
-   lightBg: false,
-   lightText: true,
+   id:'contact',
+   lightBg: true,
+   lightText: false,
    lightTextDesc: true,
-   topLine: 'Works',
-   headline: 'What I did in projects?',
-   description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit minus neque sunt repellat aut debitis ea ducimus praesentium ut, eaque, nostrum similique numquam iure voluptatum quae sapiente.',
+   topLine: 'Let\'s start',
+   headline: 'My Passion is Here',
+   description: 'yusuke.10.25.61@gmail.com',
    buttonLabel: 'Contact Me!',
    imgStart: true,
    alt: 'AboutMe',
-   dark: true,
-   primary: true,
+   dark: false,
+   primary: false,
    darkText: false
 };
 

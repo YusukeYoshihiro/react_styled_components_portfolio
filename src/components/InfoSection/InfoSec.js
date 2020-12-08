@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
-import AboutMeImg from '../../images/about_me.svg';
+import AboutMeImg from '../../images/green_main_photo.png';
 import {
   InfoContainer,
   InfoWrapper,

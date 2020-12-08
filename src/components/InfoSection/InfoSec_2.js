@@ -1,3 +1,4 @@
+// Skills Part
 import React from 'react'
 import { Button } from '../ButtonElement'
 import SkillsImg from '../../images/skillsLang.svg';
@@ -45,14 +46,14 @@ const InfoSec2 = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>
-                 <SkillsWrap darkText={darkText}> {/** ul */}
-                   <h2>&lt; Languages /&gt;</h2><br/>
+                 <SkillsWrap darkText={darkText}> 
+                   <h3>&lt; Languages /&gt;</h3><br/>
                    <p> HTML, CSS, Sass, ES6, JQuery, JAVA</p><br/>
 
-                   <h2>&lt; Frameworks /&gt;</h2><br/>
+                   <h3>&lt; Frameworks /&gt;</h3><br/>
                    <p> React, React-Redux, styled-components</p><br/>
 
-                   <h2>&lt; Databese ＆ Tools /&gt;</h2><br/>
+                   <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
                    <p> MongoDB, firebase, mySQL, Figma, Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
