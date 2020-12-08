@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/Works.svg';
-import Icon2 from '../../images/Works.svg';
-import Icon3 from '../../images/Works.svg';
+import Icon1 from '../../images/avatar_img.png';
+import Icon2 from '../../images/Lacrosse_works.png';
+import Icon3 from '../../images/netfilm_img.png';
 import { 
   WorksContainer,
   WorksH1, 
