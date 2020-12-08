@@ -7,12 +7,12 @@ import SigninPage from './pages/SignIn';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/signin" component={SigninPage} exact />
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
