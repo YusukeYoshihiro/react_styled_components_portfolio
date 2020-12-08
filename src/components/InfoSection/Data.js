@@ -7,7 +7,7 @@ export const homeObjOne = {
    lightTextDesc: true,
    topLine: 'About me',
    headline: 'Who am I ?',
-   description: 'I\'m Yusuke, Japanese Front-End Developer, based in Vancouver. I\'m passionate of coding, cooking, hockey. Constantly learning web development, especially react and react-redux. ',
+   description: 'I\'m Yusuke, Japanese Front-End Developer, based in Vancouver. I\'m passionate about coding, cooking, hockey. Specifically, expert in React, React-Redux. Constantly learning web development, especially MERN stacks.',
    buttonLabel: 'Contact Me!',
    imgStart: true,
    // img: require(../../images/about_img.svg),

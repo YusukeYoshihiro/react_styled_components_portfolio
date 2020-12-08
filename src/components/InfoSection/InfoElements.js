@@ -80,10 +80,20 @@ export const Subtitle = styled.div`
   color: ${({darkText})=> (darkText ? '#010606': '#fff')};
 `;
 
+export const Subtitle3 = styled.div`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({darkText})=> (darkText ? '#fff': '#010606')};
+`;
+
 // For infoSec_2.js 
 export const SkillsWrap = styled.div`
   color: ${({darkText})=> (darkText ? '#010606': '#fff')};
 `;
+
+
 
 export const BtnWrap = styled.div`
    display: flex;

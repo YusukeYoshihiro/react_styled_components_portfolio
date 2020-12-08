@@ -11,7 +11,7 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
+  Subtitle3,
   BtnWrap,
   ImgWrap,
   Img,
@@ -44,7 +44,7 @@ const InfoSec_3 = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle3 darkText={darkText}>{description}</Subtitle3>
                 <BtnWrap>
                   <Button 
                     to='home'
