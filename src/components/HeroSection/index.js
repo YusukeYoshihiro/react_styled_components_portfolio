@@ -39,7 +39,7 @@ const HeroSection = () => {
           primary='true'
           dark='true'
           >
-            My Passions Here {hover ? <ArrowForward /> : <ArrowRight />}
+            Check it Out ! {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

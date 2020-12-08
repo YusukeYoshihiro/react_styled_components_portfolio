@@ -15,8 +15,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
-  NavBtnLink
+  // NavBtn,
+  // NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks 
-                to='signup'
+                to='contact'
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -93,10 +93,10 @@ const Navbar = ({ toggle }) => {
                 >Contact</NavLinks>
               </NavItem>
             </NavMenu>
-
+{/* 
             <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
+              <NavBtnLink to='/signin'>Contact Me!</NavBtnLink>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

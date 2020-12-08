@@ -112,8 +112,15 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink= styled.a`
- color: #fff;
+ color: #01bf71;
  font-size: 24px;
+ transition: all 0.2s ease-in-out;
+
+ &:hover {
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+    color: #355EB4;
+  }
 `;
 
 
