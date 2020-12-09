@@ -83,7 +83,7 @@ const InfoSec_3 = ({
                   </Button>
                 </BtnWrap>
               </TextWrapper>
-            </Column1>
+            </Column1 >
 
             <Column2>
               <ImgWrap>

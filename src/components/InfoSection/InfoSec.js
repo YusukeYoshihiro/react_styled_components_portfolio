@@ -32,14 +32,19 @@ const InfoSec = ({
   alt,
   primary,
   dark,
-  dark2
+  dark2,
+  scroll,
+  objStyle
 }) => {
+
+  console.log(objStyle)
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <Column1 scroll={scroll} objStyle={objStyle}>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -62,7 +67,7 @@ const InfoSec = ({
               </TextWrapper>
             </Column1>
 
-            <Column2>
+            <Column2 scroll={scroll} >
               <ImgWrap>
                 <Img src={myImg} alt={alt} />
               </ImgWrap>
