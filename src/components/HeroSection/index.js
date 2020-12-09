@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElement';
 
@@ -31,10 +31,10 @@ const HeroSection = () => {
         <HeroH1> I'm Yusuke, Front-End-Developer,<br/>based in Vancouver. </HeroH1>
         <HeroP> Love to Code, Cook and Canucks.</HeroP>
         <HeroBtnWrapper>
-          <Button 
-          to="signup" 
-          onMouseEnter={onHover} 
-          onMouseLeave={onHover} 
+          <Button
+          to="signup"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
           primary='true'
           dark='true'
           >
