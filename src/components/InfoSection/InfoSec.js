@@ -48,7 +48,7 @@ const InfoSec = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
