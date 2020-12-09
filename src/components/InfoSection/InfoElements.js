@@ -33,17 +33,12 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
- /* background :${ (props) => {
-  //  console.log(props.objStyle)
-   return props.objStyle
- }}; */
+ background: ${({objStyle}) => (objStyle)};
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col1;
  /* transform: translate(500px, 0); */
- transform: ${(props) => {
-   console.log(props);
-   return (props.scrollNav ? `translate(0, 0)` : `translate(500px, 0)`)}};
+ transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
  transition: transform .2s ease-out;
 `;
 
@@ -51,7 +46,7 @@ export const Column2 = styled.div`
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col2;
- transform: ${({scrollNav}) => (scrollNav ? `translate(0,0)` : `translate(-500px,0)`)};
+ transform: ${({scroll}) => (scroll ? `translate(0,0)` : `translate(-500px,0)`)};
 `;
 
 // export const Column2_active = styled.div`
@@ -105,7 +100,7 @@ export const Subtitle3 = styled.div`
   color: ${({darkText})=> (darkText ? '#fff': '#010606')};
 `;
 
-// For infoSec_2.js 
+// For infoSec_2.js
 export const SkillsWrap = styled.div`
   color: ${({darkText})=> (darkText ? '#010606': '#fff')};
 `;
