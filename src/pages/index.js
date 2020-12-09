@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import HeroSection from '../components/HeroSection';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar';
@@ -17,16 +17,33 @@ import Footer from '../components/Footer';
 const Home = () =>{
    const [isOpen, setIsOpen]  = useState(false);
 
+   const [scrollNav, setScrollNav] = useState(false);
+
    const toggle = () => {
      setIsOpen(!isOpen);
    }
+
+   useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+  }, [])
+  
+  const changeNav = () => {
+    console.log(window.scrollY)
+    if (window.scrollY >= 320) {
+      setScrollNav(true)
+    } else {
+      setScrollNav(false)
+    }
+  };
+
+  console.log(scrollNav);
 
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSec {...homeObjOne}/>
+      <InfoSec {...homeObjOne} scroll={scrollNav}/>
       <InfoSec_2 {...homeObjTwo} />
       <Works />
       <InfoSec_3 {...homeObjThree}/> 

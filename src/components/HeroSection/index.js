@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElement';
 
@@ -16,7 +16,6 @@ import {
 
 
 const HeroSection = () => {
-
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -28,7 +27,7 @@ const HeroSection = () => {
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
-      <HeroContent>
+      <HeroContent >
         <HeroH1> I'm Yusuke, Front-End-Developer,<br/>based in Vancouver. </HeroH1>
         <HeroP> Love to Code, Cook and Canucks.</HeroP>
         <HeroBtnWrapper>

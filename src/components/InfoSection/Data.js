@@ -14,8 +14,10 @@ export const homeObjOne = {
    alt: 'AboutMe',
    dark: true,
    primary: true,
-   darkText: false
+   darkText: false,
+   objStyle:  'red'
 };
+
 
 export const homeObjTwo = {
    id:'skills',
