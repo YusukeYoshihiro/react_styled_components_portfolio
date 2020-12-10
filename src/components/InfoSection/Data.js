@@ -92,7 +92,7 @@ export const workDescThree = {
    lightTextDesc: true,
    topLine: 'Project Description',
    headline: 'Movie App Project',
-   description: ' ーI built movie app as own project with React, React-Redux.',
+   description: 'Built movie app as own project with React, Firebase and Movie Database API',
    buttonLabel: 'Visit Website',
    buttonLabel2: 'Certification',
    imgStart: true,

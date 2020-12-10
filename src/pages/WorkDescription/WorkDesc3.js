@@ -53,7 +53,8 @@ const WorkDesc3 = (
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>
                   {description}
-                  <br/><br/>
+                  <br/>
+                  <br/>
                   <h3>&lt; Languages /&gt;</h3><br/>
                    <p> React, React-Redux, Sass</p><br/>
 
