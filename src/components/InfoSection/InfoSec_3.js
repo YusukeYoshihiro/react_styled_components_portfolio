@@ -3,13 +3,13 @@ import React from 'react'
 import { Button } from '../ButtonElement'
 import AboutMeImg from '../../images/about_me.svg';
 import { SocialIconLink, SocialIcons } from '../Footer/FooterElements';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaSpotify, FaTwitter} from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaSpotify, FaTwitter } from 'react-icons/fa';
 import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
-  Column2,
+  ColumnContact,
+  ColumnContact2,
   TextWrapper,
   TopLine,
   Heading,
@@ -19,7 +19,7 @@ import {
   Img,
 } from './InfoElements';
 
-const  myImg  = AboutMeImg;
+const myImg = AboutMeImg;
 
 const InfoSec_3 = ({
   lightBg,
@@ -42,33 +42,34 @@ const InfoSec_3 = ({
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <ColumnContact>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle3 darkText={darkText}>{description}</Subtitle3>
                 <SocialIcons>
-                                   <SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-                                        <FaFacebook />
-                                   </SocialIconLink>
-                                   <SocialIconLink href="https://www.instagram.com/?hl=ja" target="_blank" aria-label="Instagram">
-                                        <FaInstagram />
-                                   </SocialIconLink>
-                                   <SocialIconLink href="https://github.com/YusukeYoshihiro" target="_blank" aria-label="Github">
-                                        <FaGithub />
-                                   </SocialIconLink>
-                                   <SocialIconLink href="https://twitter.com/TheManfromFNFa1" target="_blank" aria-label="Twitter">
-                                        <FaTwitter />
-                                   </SocialIconLink>
-                                   <SocialIconLink href="https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/" target="_blank" aria-label="Linkdin">
-                                        <FaLinkedin />
-                                   </ SocialIconLink>
-                                   <SocialIconLink href="https://open.spotify.com/user/0qibuxlh5wun8410w367fjush " target="_blank" aria-label="Spotify">
-                                        <FaSpotify />
-                                   </ SocialIconLink>
-                              </ SocialIcons><br/>
+                  <SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <FaFacebook />
+                  </SocialIconLink>
+                  <SocialIconLink href="https://www.instagram.com/?hl=ja" target="_blank" aria-label="Instagram">
+                    <FaInstagram />
+                  </SocialIconLink>
+                  <SocialIconLink href="https://github.com/YusukeYoshihiro" target="_blank" aria-label="Github">
+                    <FaGithub />
+                  </SocialIconLink>
+                  <SocialIconLink href="https://twitter.com/TheManfromFNFa1" target="_blank" aria-label="Twitter">
+                    <FaTwitter />
+                  </SocialIconLink>
+                  <SocialIconLink href="https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/" target="_blank" aria-label="Linkdin">
+                    <FaLinkedin />
+                  </ SocialIconLink>
+                  <SocialIconLink href="https://open.spotify.com/user/0qibuxlh5wun8410w367fjush " target="_blank" aria-label="Spotify">
+                    <FaSpotify />
+                  </ SocialIconLink>
+
+                </ SocialIcons><br />
                 <BtnWrap>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
@@ -83,13 +84,13 @@ const InfoSec_3 = ({
                   </Button>
                 </BtnWrap>
               </TextWrapper>
-            </Column1 >
+            </ColumnContact >
 
-            <Column2>
+            <ColumnContact2>
               <ImgWrap>
                 <Img src={myImg} alt={alt} />
               </ImgWrap>
-            </Column2>
+            </ColumnContact2>
 
           </InfoRow>
         </InfoWrapper>

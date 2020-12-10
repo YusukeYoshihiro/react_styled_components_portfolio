@@ -37,58 +37,20 @@ export const Column1 = styled.div`
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col1;
- transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
- transition: transform .4s ease-out;
-
- @media screen and (max-width: 768px){
-  transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(150px, 0)`)};
- transition: transform .4s ease-out;
- }
 `;
 
 export const Column2 = styled.div`
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col2;
- transform: ${({scroll}) => (scroll ? `translate(0,0)` : `translate(-500px,0)`)};
- transition: transform .4s ease-out;
 `;
 
-export const ColumnSkill = styled.div`
- background: ${({objStyle}) => (objStyle)};
- margin-bottom: 15px;
- padding: 0 15px;
- grid-area: col1;
- /* transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)}; 
- transition: transform .4s ease-out;  */
-`;
-
-export const ColumnSkill2 = styled.div`
- margin-bottom: 15px;
- padding: 0 15px;
- grid-area: col2;
- /* transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
- transition: transform .4s ease-out; */
-`;
-
-export const ColumnContact = styled.div`
- background: ${({objStyle}) => (objStyle)};
- margin-bottom: 15px;
- padding: 0 15px;
- grid-area: col1;
- /* transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)}; 
- transition: transform .4s ease-out;  */
-`;
-
-export const ColumnContact2 = styled.div`
- margin-bottom: 15px;
- padding: 0 15px;
- grid-area: col2;
- /* transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
- transition: transform .4s ease-out; */
-`;
-
-
+// export const Column2_active = styled.div`
+//  margin-bottom: 15px;
+//  padding: 0 15px;
+//  grid-area: col2;
+//  transform: translate(-500px, 0);
+// `;
 
 export const TextWrapper = styled.div`
  max-width: 540px;

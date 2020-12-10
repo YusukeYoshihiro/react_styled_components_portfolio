@@ -7,7 +7,7 @@ import Home from './pages';
 
 function App() {
   return (
-    // add " basename={process.env.PUBLIC_URL} " to deploy
+    // add " basename={process.env.PUBLIC_URL} " to deploy on GitHub pages
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" component={Home} exact />

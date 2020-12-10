@@ -6,8 +6,8 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
-  Column2,
+  ColumnSkill,
+  ColumnSkill2,
   TextWrapper,
   TopLine,
   Heading,
@@ -41,7 +41,7 @@ const InfoSec2 = ({
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <ColumnSkill>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -54,7 +54,7 @@ const InfoSec2 = ({
                    <p> React, React-Redux, styled-components</p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> MongoDB, firebase, mySQL, Figma, Photoshop, illustrator, XD</p>
+                   <p> MongoDB, Firebase, mySQL, Figma, Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
                 <BtnWrap onClick>
@@ -73,13 +73,13 @@ const InfoSec2 = ({
                   </Button>
                 </BtnWrap>
               </TextWrapper>
-            </Column1>
+            </ColumnSkill>
 
-            <Column2>
+            <ColumnSkill2>
               <ImgWrap>
                 <Img src={skills} alt={alt} />
               </ImgWrap>
-            </Column2>
+            </ColumnSkill2>
 
           </InfoRow>
         </InfoWrapper>

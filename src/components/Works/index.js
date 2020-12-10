@@ -26,13 +26,13 @@ const Works = () => {
 
           <WorksCard>
             <WorksIcon src={Icon2}/>
-            <WorksH2>Lacrosse Projects</WorksH2>
+            <WorksH2>Lacrosse Project</WorksH2>
             <WorksP>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit </WorksP>
           </WorksCard>
 
           <WorksCard>
             <WorksIcon src={Icon3}/>
-            <WorksH2>Movie app Projects</WorksH2>
+            <WorksH2>Movie app Project</WorksH2>
             <WorksP>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit </WorksP>
           </WorksCard>
         </WorksWrapper>
