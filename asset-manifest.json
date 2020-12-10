@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_styled_components_portfolio/static/css/main.1ac846b3.chunk.css",
-    "main.js": "/react_styled_components_portfolio/static/js/main.457d8fed.chunk.js",
-    "main.js.map": "/react_styled_components_portfolio/static/js/main.457d8fed.chunk.js.map",
+    "main.js": "/react_styled_components_portfolio/static/js/main.156cc5cb.chunk.js",
+    "main.js.map": "/react_styled_components_portfolio/static/js/main.156cc5cb.chunk.js.map",
     "runtime-main.js": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js",
     "runtime-main.js.map": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js.map",
     "static/js/2.b627fb2a.chunk.js": "/react_styled_components_portfolio/static/js/2.b627fb2a.chunk.js",
@@ -15,17 +15,17 @@
     "static/media/MockImgCricket.cb72c762.png": "/react_styled_components_portfolio/static/media/MockImgCricket.cb72c762.png",
     "static/media/MockImgLacrosse.3267346b.png": "/react_styled_components_portfolio/static/media/MockImgLacrosse.3267346b.png",
     "static/media/MovieApp.50745bab.png": "/react_styled_components_portfolio/static/media/MovieApp.50745bab.png",
+    "static/media/SkillImg.a830d030.png": "/react_styled_components_portfolio/static/media/SkillImg.a830d030.png",
     "static/media/about_me.abe96ec2.svg": "/react_styled_components_portfolio/static/media/about_me.abe96ec2.svg",
     "static/media/avatar_img.feee7f65.png": "/react_styled_components_portfolio/static/media/avatar_img.feee7f65.png",
     "static/media/green_main_photo.7602d7b0.png": "/react_styled_components_portfolio/static/media/green_main_photo.7602d7b0.png",
     "static/media/netfilm_img.957996db.png": "/react_styled_components_portfolio/static/media/netfilm_img.957996db.png",
-    "static/media/skillsLang.b77c85de.svg": "/react_styled_components_portfolio/static/media/skillsLang.b77c85de.svg",
     "static/media/video.a2d664ac.mp4": "/react_styled_components_portfolio/static/media/video.a2d664ac.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.0b01bb22.js",
     "static/js/2.b627fb2a.chunk.js",
     "static/css/main.1ac846b3.chunk.css",
-    "static/js/main.457d8fed.chunk.js"
+    "static/js/main.156cc5cb.chunk.js"
   ]
 }
