@@ -150,12 +150,22 @@ export const ImgWrap = styled.div`
    height: 100%;
 `;
 
+export const ImgWrapSkill = styled.div`
+   max-width: 555px;
+   height: 100%;
+
+   @media screen and (max-width: 768px) {
+    width: 300px;
+    height: 350px;
+   }
+`;
+
+
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
-
 
 
 

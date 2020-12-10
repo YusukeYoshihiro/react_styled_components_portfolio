@@ -104,6 +104,7 @@ export const SkillsWrap = styled.div`
 
 export const BtnWrap = styled.div`
    display: flex;
+   flex-direction: column;
    justify-content: flex-start;
 `;
 
