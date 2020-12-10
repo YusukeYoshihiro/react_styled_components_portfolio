@@ -51,19 +51,55 @@ export const homeObjThree = {
    darkText: false
 };
 
-export const workDescObj = {
+export const workDescOne = {
    id:'cricket',
    lightBg: false,
    lightText: true,
    lightTextDesc: true,
    topLine: 'Project Description',
    headline: 'Cricket Project',
-   description: ' ーWe build actual website for local cricket organization with real customer.',
+   description: ' Built actual website for local cricket organization in college program.',
    buttonLabel: 'Visit Website',
+   buttonLabel2: 'Reference by Instructor',
    imgStart: true,
    alt: 'Cricket_img',
    dark: true,
    primary: true,
    darkText: false
 };
+
+export const workDescTwo = {
+   id:'lacrosse',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
+   topLine: 'Project Description',
+   headline: 'Pro Lacrosse Caliber Project',
+   description: ' Built actual website for Pro Lacrosse Caliber with real client.',
+   buttonLabel: 'Visit Website',
+   buttonLabel2: 'Certification by Client',
+   imgStart: true,
+   alt: 'Lacrosse_img',
+   dark: true,
+   primary: true,
+   darkText: false
+};
+
+export const workDescThree = {
+   id:'movieApp',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
+   topLine: 'Project Description',
+   headline: 'Movie App Project',
+   description: ' ーI built movie app as own project with React, React-Redux.',
+   buttonLabel: 'Visit Website',
+   buttonLabel2: 'Certification',
+   imgStart: true,
+   alt: 'movieApp_img',
+   dark: true,
+   primary: true,
+   darkText: false
+};
+
 

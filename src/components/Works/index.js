@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon1 from '../../images/avatar_img.png';
+import Icon1 from '../../images/Cricket_Logo.png';
 import Icon2 from '../../images/Lacrosse_works.png';
 import Icon3 from '../../images/netfilm_img.png';
 import { 
@@ -21,19 +21,19 @@ const Works = () => {
           <WorksCard>
             <WorksIcon src={Icon1}/>
             <WorksH2>Cricket Project</WorksH2>
-            <WorksP>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit </WorksP>
+            <WorksP>Built actual website for local cricket organization in college program. </WorksP>
           </WorksCard>
 
           <WorksCard>
             <WorksIcon src={Icon2}/>
             <WorksH2>Lacrosse Project</WorksH2>
-            <WorksP>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit </WorksP>
+            <WorksP>Built actual website for Pro Lacrosse Caliber for real client. </WorksP>
           </WorksCard>
 
           <WorksCard>
             <WorksIcon src={Icon3}/>
-            <WorksH2>Movie app Project</WorksH2>
-            <WorksP>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit quasi suscipit </WorksP>
+            <WorksH2>Movie App Project</WorksH2>
+            <WorksP>Built  movie app as own project with React, React-Redux. </WorksP>
           </WorksCard>
         </WorksWrapper>
       </WorksContainer>
