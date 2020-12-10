@@ -17,6 +17,8 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
+  margin-top: 15px;
+  width: 200px;
 
   &:hover {
     transition: all 0.2s ease-in-out;

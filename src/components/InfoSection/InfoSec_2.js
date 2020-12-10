@@ -1,7 +1,7 @@
 // Skills Part
 import React from 'react'
 import { Button } from '../ButtonElement'
-import SkillsImg from '../../images/skillsLang.svg';
+import SkillsImg from '../../images/SkillImg.png';
 import {
   InfoContainer,
   InfoWrapper,
@@ -14,7 +14,7 @@ import {
   Subtitle,
   SkillsWrap,
   BtnWrap,
-  ImgWrap,
+  ImgWrapSkill,
   Img,
 } from './InfoElements';
 
@@ -76,9 +76,9 @@ const InfoSec2 = ({
             </ColumnSkill>
 
             <ColumnSkill2>
-              <ImgWrap>
+              <ImgWrapSkill>
                 <Img src={skills} alt={alt} />
-              </ImgWrap>
+              </ImgWrapSkill>
             </ColumnSkill2>
 
           </InfoRow>
