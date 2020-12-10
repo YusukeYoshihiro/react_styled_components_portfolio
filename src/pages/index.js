@@ -1,14 +1,14 @@
 /* eslint-disable react/jsx-pascal-case */
 import React, { useState, useEffect } from 'react';
 import HeroSection from '../components/HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, workDescObj } from '../components/InfoSection/Data'
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import InfoSec from '../components/InfoSection/InfoSec';
 import InfoSec_2 from '../components/InfoSection/InfoSec_2';
 import InfoSec_3 from '../components/InfoSection/InfoSec_3';
 import Works  from '../components/Works/index';
-import WorkDescription from './WorkDescription/index';
+import WorkDescription from '../pages/WorkDescription';
 import Footer from '../components/Footer';
 
 
@@ -47,10 +47,8 @@ const Home = () =>{
       <InfoSec {...homeObjOne} scroll={scrollNav}/>
       <InfoSec_2 {...homeObjTwo} />
       <Works />
-      <WorkDescription {...workDescObj}/>
+      <WorkDescription />
       <InfoSec_3 {...homeObjThree}/> 
-      {/* <Certifications toggle={toggle}/> */}
-      {/* <InfoSec_3 {...homeObjThree}/> */}
       <Footer/>
     </>
   )

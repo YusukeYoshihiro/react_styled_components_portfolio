@@ -41,7 +41,7 @@ export const Column1 = styled.div`
  transition: transform .4s ease-out;
 
  @media screen and (max-width: 768px){
-  transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(150px, 0)`)};
+  transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
  transition: transform .4s ease-out;
  }
 `;
