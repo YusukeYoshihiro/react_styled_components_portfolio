@@ -10,6 +10,10 @@ import {
   SidebarRoute
 } from './SidebarElements';
 
+const showResume = () => {
+  window.open('https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/', '_blank')
+}
+
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     < SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -23,12 +27,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle} >About</SidebarLink>
           <SidebarLink to="skills" onClick={toggle} >Skills</SidebarLink>
           <SidebarLink to="works" onClick={toggle} >Works</SidebarLink>
-          <SidebarLink to="signup" onClick={toggle} >Contact</SidebarLink>
+          <SidebarLink to="contact" onClick={toggle} >Contact</SidebarLink>
           </SidebarMenu>
       </SidebarWrapper>
 
       <SideBtnWrap>
-         <SidebarRoute to="/signin">Resume</SidebarRoute>
+         <SidebarRoute onClick={showResume}>Resume</SidebarRoute>
       </SideBtnWrap>
 
     </SidebarContainer>

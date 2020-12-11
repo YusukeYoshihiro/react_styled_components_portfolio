@@ -18,6 +18,10 @@ import {
 
 const  myImg  = AboutMeImg;
 
+const showResume = () => {
+  window.open('https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/', '_blank')
+}
+
 const InfoSec = ({
   lightBg,
   id,
@@ -58,6 +62,7 @@ const InfoSec = ({
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
+                    onClick={showResume}
                   > 
                     {buttonLabel}
                   </Button>
