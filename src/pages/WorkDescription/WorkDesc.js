@@ -1,6 +1,10 @@
-import React from 'react'
+import React,{} from 'react'
 import { Button } from '../../components/ButtonElement';
-import  workImgOne from '../../images/MockImgCricket.png';
+// import Navbar from '../../components/Navbar';
+// import Sidebar from '../../components/Sidebar';
+import workImgOne from '../../images/MockImgCricket.png';
+import {motion} from 'framer-motion';
+import {animationOne, transition, } from "../../animations";
 
 import {
   InfoContainer, 
@@ -47,8 +51,23 @@ const WorkDesc = (
     // scroll,
   }
 ) => {
+  // const [isOpen, setIsOpen]  = useState(false);
+
+  //  const toggle = () => {
+  //    setIsOpen(!isOpen);
+  //  }
+
   return (
     <>
+       <motion.div 
+       initial="out" 
+       animate="in" 
+       exit="out" 
+       variants={animationOne}
+       transition={transition}
+       >
+       {/* <Sidebar isOpen={isOpen} toggle={toggle}/>
+       <Navbar toggle={toggle}/> */}
        <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
@@ -108,6 +127,7 @@ const WorkDesc = (
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
+      </motion.div>
     </>
   )
 }
