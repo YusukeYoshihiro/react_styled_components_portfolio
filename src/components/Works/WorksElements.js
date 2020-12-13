@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkD } from 'react-router-dom';
 
 export const WorksContainer = styled.div`
    height: 800px;
@@ -35,6 +36,10 @@ export const WorksWrapper = styled.div`
      padding: 0 20px;
    }
 `;
+export const Link = styled(LinkD)`
+  text-decoration: none;
+  color:#010606;
+`
 
 export const WorksCard = styled.div`
    background: #fff;
@@ -43,17 +48,53 @@ export const WorksCard = styled.div`
    justify-content: flex-start;
    align-items: center;
    border-radius: 10px;
-   box-shadow: 0 6px 20px rgba(250,250,255,.15);
    max-height: 340px;
    padding: 30px;
-   /* box-shadow: 0 1px 3px rgba(0,0,0,0.2); */
    transition: all 0.2s ease-in-out;
+
+   position: relative;
+	 overflow: hidden;
+
+   @keyframes rotate {
+	  100% {
+		 transform: rotate(1turn);
+    }
+  }
 
    &:hover{
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-   };
+
+    &::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 200%;
+		background-color: #399953;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+  }
+    
+    &::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		background: white;
+    border-radius: 5px;
+  }
+}
+	
 `;
 
 export const WorksIcon = styled.img`
@@ -62,7 +103,7 @@ export const WorksIcon = styled.img`
    margin-bottom: 10px;
 `;
 
-export const WorksH1= styled.h1`
+export const WorksH1 = styled.h1`
    font-size: 2.5rem;
    color: #fff;
    margin-bottom: 64px;
@@ -77,7 +118,7 @@ export const WorksH2 = styled.h2`
   margin-bottom: 10px;
 `;
 
-export const WorksP= styled.p`
+export const WorksP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
