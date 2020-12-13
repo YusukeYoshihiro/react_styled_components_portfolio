@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../../components/ButtonElement';
-import  workImgTwo from '../../images/MockImgLacrosse.png';
+import  workImg from '../../images/MovieApp.png';
+import { workDescThree } from '../../components/InfoSection/Data';
 
 import {
   InfoContainer, 
@@ -18,18 +19,13 @@ import {
 } from  './WorkDescElements';
 
 const visitWeb = () => {
-  window.open('http://www.procaliberlacrosse.com/', '_blank')
+  window.open('https://yusukeyoshihiro.github.io/netflix_clone_app/', '_blank')
 }
 
-const showCertification = () => {
-  window.open('https://drive.google.com/file/d/1tjpMVCE-7F7Lqho8FFHXVW2wSxfdRpS8/view?usp=sharing', '_blank')
-}
+const movieAppImg = workImg;
 
-
-const lacrosseImg = workImgTwo;
-
-const WorkDesc2 = (
-  {
+const WorkDesc3 = () => {
+  const {
     lightBg,
     id,
     imgStart,
@@ -39,15 +35,11 @@ const WorkDesc2 = (
     darkText,
     description,
     buttonLabel,
-    buttonLabel2,
-    // img,
     alt,
     primary,
     dark,
     dark2,
-    // scroll,
-  }
-) => {
+    } = workDescThree;
   return (
     <>
        <InfoContainer lightBg={lightBg} id={id} >
@@ -61,13 +53,14 @@ const WorkDesc2 = (
                   {description}
                   <br/><br/>
                   <h3>&lt; Languages /&gt;</h3><br/>
-                   <p> HTML, CSS, ES6, JQuery, JAVA, PHP</p><br/>
+                   <p> React, React-Redux, Sass</p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> mySQL, Figma, Goole-Form</p>
+                   <p> The Movie Database API, Firebase, Diagrams.net</p>
                 </Subtitle>
                 <BtnWrap>
                   <Button 
+                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -80,26 +73,13 @@ const WorkDesc2 = (
                   > 
                     {buttonLabel}
                   </Button>
-                  <Button 
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                    onClick={showCertification}
-                  > 
-                    {buttonLabel2}
-                  </Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
 
             <Column2 >
               <ImgWrap>
-                <Img src={lacrosseImg} alt={alt} />
+                <Img src={movieAppImg} alt={alt} />
               </ImgWrap>
             </Column2>
 
@@ -110,4 +90,4 @@ const WorkDesc2 = (
   )
 }
 
-export default WorkDesc2;
+export default WorkDesc3;

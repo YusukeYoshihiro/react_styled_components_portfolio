@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 // we can refer "react-icon" page to choose hamburger menu.
 import { FaBars } from 'react-icons/fa';
+// https://www.npmjs.com/package/react-icons
 import { IconContext } from 'react-icons/lib';
 import img from '../../images/avatar_img.png';
 // https://www.npmjs.com/package/react-scroll
@@ -15,8 +16,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  // NavBtn,
-  // NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -58,7 +57,6 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact='true'
                   offset={-80}
-                  // activeClass="active"
                 >About</NavLinks>
               </NavItem>
               <NavItem>
@@ -92,10 +90,6 @@ const Navbar = ({ toggle }) => {
                 >Contact</NavLinks>
               </NavItem>
             </NavMenu>
-{/* 
-            <NavBtn>
-              <NavBtnLink to='/signin'>Contact Me!</NavBtnLink>
-            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

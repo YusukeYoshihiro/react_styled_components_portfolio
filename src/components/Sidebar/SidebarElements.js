@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
-import { FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';// https://react-icons.github.io/react-icons/search?q=fatime
 
 export const SidebarContainer = styled.aside`
    position: fixed;
@@ -18,6 +18,7 @@ export const SidebarContainer = styled.aside`
    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
+// https://react-icons.github.io/react-icons/search?q=fatime
 export const CloseIcon = styled(FaTimes)`
   color:#fff;
 `;
