@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/ButtonElement';
-import workImgOne from '../../images/MockImgCricket.png';
+import workImgOne from '../../assets/images/MockImgCricket.png';
 import { workDescOne } from '../../components/InfoSection/Data';
 
 import {

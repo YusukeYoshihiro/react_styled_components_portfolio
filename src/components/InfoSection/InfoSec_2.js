@@ -1,7 +1,7 @@
 // Skills Part
 import React from 'react'
 import { Button } from '../ButtonElement'
-import SkillsImg from '../../images/SkillImg.png';
+import SkillsImg from '../../assets/images/SkillImg.png';
 import {
   InfoContainer,
   InfoWrapper,

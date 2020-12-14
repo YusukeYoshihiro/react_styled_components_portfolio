@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Icon1 from '../../images/Cricket_Logo.png';
-import Icon2 from '../../images/Lacrosse_works.png';
-import Icon3 from '../../images/netfilm_img.png';
+import Icon1 from '../../assets/images/Cricket_Logo.png';
+import Icon2 from '../../assets/images/Lacrosse_works.png';
+import Icon3 from '../../assets/images/netfilm_img.png';
 import {
   WorksContainer,
   WorksH1,

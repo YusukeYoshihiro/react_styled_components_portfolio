@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/ButtonElement';
-import  workImg from '../../images/MovieApp.png';
+import  workImg from '../../assets/images/MovieApp.png';
 import { workDescThree } from '../../components/InfoSection/Data';
 
 import {
