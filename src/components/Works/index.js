@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Icon1 from '../../assets/images/Cricket_Logo.png';
 import Icon2 from '../../assets/images/Lacrosse_works.png';
-import Icon3 from '../../assets/images/netfilm_img.png';
+import Icon3 from '../../assets/images/Netfilm.png';
+import Icon4 from '../../assets/images/workDescFour.png';
 import {
   WorksContainer,
   WorksH1,
@@ -46,6 +47,15 @@ const Works = () => {
             <WorksP>Built  movie app as own project with React, React-Redux. </WorksP>
           </WorksCard>
         </Link>
+
+        <Link to={'/ecommerce'} onClick={handleClick}>
+          <WorksCard >
+            <WorksIcon src={Icon4} />
+            <WorksH2>E-commerce App Project with MERN stack</WorksH2>
+            <WorksP>Commning Soon !</WorksP>
+          </WorksCard>
+        </Link>
+        
       </WorksWrapper>
     </WorksContainer>
   )
