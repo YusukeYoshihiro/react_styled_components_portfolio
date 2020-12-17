@@ -2,10 +2,11 @@ import React,{useState} from 'react';
 // import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route, useLocation } from 'react-router-dom';
 import Home from './pages';
-import WorkDescription from './components/WorkDescription';
+// import WorkDescription from './components/WorkDescription';
 import WorkDesc from './components/WorkDescription/WorkDesc';
 import WorkDesc2 from './components/WorkDescription/WorkDesc2';
 import WorkDesc3 from './components/WorkDescription/WorkDesc3';
+import WorkDesc4 from './components/WorkDescription/WorkDesc4';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -30,10 +31,11 @@ function App() {
        <Navbar toggle={toggle} />
       <Switch location={location} key={location.pathname}>
         <Route path="/" exact component={Home} />
-        <Route path="/workDesc" component={WorkDescription} />
+        {/* <Route path="/workDesc" component={WorkDescription} /> */}
         <Route path="/cricket" component={WorkDesc} />
         <Route path="/lacrosse" component={WorkDesc2} />
         <Route path="/movieApp" component={WorkDesc3}  />
+        <Route path="/ecommerce" component={WorkDesc4}  />
       </Switch>
       <Footer/>
     {/* </Router> */}

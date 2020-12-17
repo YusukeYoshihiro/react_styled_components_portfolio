@@ -119,6 +119,17 @@ export const Img = styled.img`
   padding-right: 0;
 `;
 
+export const Img4 = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+
+  @media screen and (max-width: 780px){
+    width: 250px;
+    height: 250px;
+  }
+`;
+
 
 
 
