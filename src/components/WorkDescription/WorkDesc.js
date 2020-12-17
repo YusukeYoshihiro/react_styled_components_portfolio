@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/ButtonElement';
-import workImgOne from '../../assets/images/MockImgCricket.png';
+import workImg from '../../assets/images/MockImgCricket.png';
 import { workDescOne } from '../../components/InfoSection/Data';
 
 import {
@@ -26,7 +26,7 @@ const showCertification = () => {
   window.open('https://drive.google.com/file/d/1HcZlGWoMhLvcl0cKtIVffq-RMd_1pEqY/view?usp=sharing', '_blank')
 }
 
-const cricketImg = workImgOne;
+const cricketImg = workImg;
 
 const WorkDesc = () => {
   const {

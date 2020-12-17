@@ -101,4 +101,20 @@ export const workDescThree = {
    darkText: false
 };
 
+export const workDescFour = {
+   id:'ecommerce',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
+   topLine: 'Project Description',
+   headline: 'Ecommerce MERN Stack Project with Design',
+   description: 'Commning Soon',
+   buttonLabel: 'Visit Website',
+   imgStart: true,
+   alt: 'ecommerce_img',
+   dark: true,
+   primary: true,
+   darkText: false
+};
+
 
