@@ -15,7 +15,7 @@ import {
   Subtitle, 
   BtnWrap, 
   ImgWrap, 
-  Img,
+  Img4,
 } from  './WorkDescElements';
 
 const visitWeb = () => {
@@ -79,7 +79,7 @@ const WorkDesc4 = () => {
 
             <Column2 >
               <ImgWrap>
-                <Img src={ecommerceImg} alt={alt} />
+                <Img4 src={ecommerceImg} alt={alt} />
               </ImgWrap>
             </Column2>
 

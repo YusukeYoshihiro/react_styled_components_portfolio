@@ -16,11 +16,11 @@ const showResume = () => {
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
-    < SidebarContainer isOpen={isOpen} onClick={toggle}>
+    < SidebarContainer isOpen={isOpen} onClick={toggle} >
       <Icon>
         <CloseIcon />
       </Icon>
-
+      
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="home" onClick={toggle} >Home</SidebarLink>

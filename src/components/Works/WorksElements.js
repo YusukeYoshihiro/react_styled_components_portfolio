@@ -10,11 +10,13 @@ export const WorksContainer = styled.div`
    background: #010606;
 
    @media screen and (max-width: 768px){
-     height: 1100px;
+    padding: 100px 0;
+     height: 1450px;
    }
 
    @media screen and (max-width: 480px){
-     height: 1300px;
+     padding: 100px 0;
+     height: 1500px;
    }
 `;
 
