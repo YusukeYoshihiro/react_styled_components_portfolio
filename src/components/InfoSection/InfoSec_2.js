@@ -51,7 +51,7 @@ const InfoSec2 = ({
                    <p> HTML, CSS, Sass, ES6, JQuery, JAVA</p><br/>
 
                    <h3>&lt; Frameworks /&gt;</h3><br/>
-                   <p> React, React-Redux, styled-components</p><br/>
+                   <p> React, React-Redux, styled-components, Node.js</p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
                    <p> MongoDB, Firebase, mySQL, Figma, Photoshop, illustrator, XD</p>
