@@ -61,7 +61,7 @@ const InfoSec2 = ({
                    <p> MongoDB, Firebase, Git, mySQL, Figma, Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
-                <BtnWrap onClick>
+                <BtnWrap onClick={()=> showCertifications}>
                   <Button 
                     onClick={showCertifications}
                     smooth={true}
