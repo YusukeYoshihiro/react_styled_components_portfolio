@@ -55,7 +55,7 @@ const Works = () => {
         <Link to={'/ecommerce'} onClick={handleClick}>
           <WorksCard  data-aos="zoom-in" data-aos-duration="1000"  >
             <WorksIcon src={Icon4} />
-            <WorksH2>E-commerce App Project with MERN stack</WorksH2>
+            <WorksH2>E-commerce App Project</WorksH2>
             <WorksP>Commning Soon !</WorksP>
           </WorksCard>
         </Link>
