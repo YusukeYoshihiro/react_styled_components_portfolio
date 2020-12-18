@@ -21,6 +21,12 @@ import {
 
 const myImg = AboutMeImg;
 
+const mailtoUrl = 'mailto:yusuke.10.25.61@gmail.com';
+
+const mailTo = () => {
+   window.location.href= mailtoUrl;
+}
+
 const InfoSec_3 = ({
   lightBg,
   id,
@@ -70,8 +76,7 @@ const InfoSec_3 = ({
                 </ SocialIcons><br />
                 <BtnWrap>
                   <Button
-                    to='home'
-                    smooth={true}
+                    onClick={mailTo}
                     duration={500}
                     spy={true}
                     exact="true"

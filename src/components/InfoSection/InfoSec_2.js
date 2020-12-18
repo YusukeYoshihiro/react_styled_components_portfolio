@@ -20,6 +20,10 @@ import {
 
 const  skills  = SkillsImg;
 
+const showCertifications = () => {
+  window.open('https://drive.google.com/file/d/19Y8pxOCzbDm0EsCGIM9lQmQma269hAJD/view?usp=sharing', '_blank')
+}
+
 const InfoSec2 = ({
   lightBg,
   id,
@@ -48,18 +52,18 @@ const InfoSec2 = ({
                 <Subtitle darkText={darkText}>
                  <SkillsWrap darkText={darkText}> 
                    <h3>&lt; Languages /&gt;</h3><br/>
-                   <p> HTML, CSS, Sass, ES6, JQuery, JAVA</p><br/>
+                   <p> HTML, CSS, Sass, ES6, JQuery, Node.js</p><br/>
 
                    <h3>&lt; Frameworks /&gt;</h3><br/>
-                   <p> React, React-Redux, styled-components, Node.js</p><br/>
+                   <p> React, React-Redux, styled-components </p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> MongoDB, Firebase, mySQL, Figma, Photoshop, illustrator, XD</p>
+                   <p> MongoDB, Firebase, Git, mySQL, Figma, Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
                 <BtnWrap onClick>
                   <Button 
-                    to='home'
+                    onClick={showCertifications}
                     smooth={true}
                     duration={500}
                     spy={true}
