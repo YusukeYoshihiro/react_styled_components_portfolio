@@ -37,21 +37,21 @@ export const Column1 = styled.div`
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col1;
- transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
- transition: transform .4s ease-out;
+ /* transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
+ transition: transform .4s ease-out; */
 
- @media screen and (max-width: 768px){
+ /* @media screen and (max-width: 768px){
   transform: ${({scroll}) => (scroll ? `translate(0, 0)` : `translate(500px, 0)`)};
  transition: transform .4s ease-out;
- }
+ } */
 `;
 
 export const Column2 = styled.div`
  margin-bottom: 15px;
  padding: 0 15px;
  grid-area: col2;
- transform: ${({scroll}) => (scroll ? `translate(0,0)` : `translate(-500px,0)`)};
- transition: transform .4s ease-out;
+ /* transform: ${({scroll}) => (scroll ? `translate(0,0)` : `translate(-500px,0)`)}; */
+ /* transition: transform .4s ease-out; */
 `;
 
 export const ColumnSkill = styled.div`

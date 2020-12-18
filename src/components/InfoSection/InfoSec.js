@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
 import AboutMeImg from '../../assets/images/green_main_photo.png';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; 
 import {
   InfoContainer,
   InfoWrapper,
@@ -15,6 +17,8 @@ import {
   ImgWrap,
   Img,
 } from './InfoElements';
+
+// AOS.init();
 
 const  myImg  = AboutMeImg;
 
@@ -46,7 +50,7 @@ const InfoSec = ({
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1 scroll={scroll} objStyle={objStyle}>
+            <Column1 data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="50">
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -69,7 +73,7 @@ const InfoSec = ({
               </TextWrapper>
             </Column1>
 
-            <Column2 scroll={scroll} >
+            <Column2 data-aos="fade-down" data-aos-duration="1000">
               <ImgWrap>
                 <Img src={myImg} alt={alt} />
               </ImgWrap>

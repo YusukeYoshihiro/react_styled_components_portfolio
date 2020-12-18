@@ -4,6 +4,7 @@ import { Button } from '../ButtonElement'
 import AboutMeImg from '../../assets/images/about_me.svg';
 import { SocialIconLink, SocialIcons } from '../Footer/FooterElements';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaSpotify, FaTwitter } from 'react-icons/fa';
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -48,7 +49,7 @@ const InfoSec_3 = ({
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <ColumnContact>
+            <ColumnContact data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="50">
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -91,7 +92,7 @@ const InfoSec_3 = ({
               </TextWrapper>
             </ColumnContact >
 
-            <ColumnContact2>
+            <ColumnContact2 data-aos="fade-down" data-aos-duration="1000">
               <ImgWrap>
                 <Img src={myImg} alt={alt} />
               </ImgWrap>
