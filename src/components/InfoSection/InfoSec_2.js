@@ -2,6 +2,8 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
 import SkillsImg from '../../assets/images/SkillImg.png';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; 
 import {
   InfoContainer,
   InfoWrapper,
@@ -17,6 +19,8 @@ import {
   ImgWrapSkill,
   Img,
 } from './InfoElements';
+
+// AOS.init();
 
 const  skills  = SkillsImg;
 
@@ -45,7 +49,7 @@ const InfoSec2 = ({
       <InfoContainer lightBg={lightBg} id={id} >
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <ColumnSkill>
+            <ColumnSkill data-aos="fade-right">
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -79,7 +83,7 @@ const InfoSec2 = ({
               </TextWrapper>
             </ColumnSkill>
 
-            <ColumnSkill2>
+            <ColumnSkill2 data-aos="fade-left">
               <ImgWrapSkill>
                 <Img src={skills} alt={alt} />
               </ImgWrapSkill>
