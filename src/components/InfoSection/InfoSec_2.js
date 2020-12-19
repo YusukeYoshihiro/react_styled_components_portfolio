@@ -62,7 +62,7 @@ const InfoSec2 = ({
                    <p> React, React-Redux, styled-components </p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> MongoDB, Firebase, Git, mySQL, Figma, Photoshop, illustrator, XD</p>
+                   <p> MongoDB, Firebase, Git, mySQL, Figma, <br/> Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
                 <BtnWrap onClick={()=> showCertifications}>

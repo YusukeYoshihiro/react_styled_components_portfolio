@@ -137,6 +137,13 @@ export const Subtitle3 = styled.div`
 // For infoSec_2.js
 export const SkillsWrap = styled.div`
   color: ${({darkText})=> (darkText ? '#010606': '#fff')};
+
+  @media screen and (max-width: 378px){
+    p{
+      font-size: 15px;
+      white-space: nowrap;
+    }
+  }
 `;
 
 
