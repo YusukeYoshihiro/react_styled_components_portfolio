@@ -21,7 +21,7 @@ export const WorksContainer = styled.div`
 `;
 
 export const WorksWrapper = styled.div`
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -47,10 +47,10 @@ export const WorksCard = styled.div`
    background: #fff;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    border-radius: 10px;
-   max-height: 340px;
+   min-height: 320px;
    padding: 30px;
    transition: all 0.2s ease-in-out;
 
@@ -94,6 +94,10 @@ export const WorksCard = styled.div`
 		height: calc(100% - 12px);
 		background: white;
     border-radius: 5px;
+  }
+
+  @media screen and (max-width: 780px) {
+    min-height: 280px;
   }
 }
 	
