@@ -19,7 +19,7 @@ import {
 } from  './WorkDescElements';
 
 const visitWeb = () => {
-  window.open('https://yusukeyoshihiro.github.io/netflix_clone_app/', '_blank')
+  window.open('https://yusukeyoshihiro.github.io/netfim_projects/', '_blank')
 }
 
 const movieAppImg = workImg;
