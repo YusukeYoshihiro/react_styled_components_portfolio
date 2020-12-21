@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react_styled_components_portfolio/static/js/main.b9700fa3.chunk.js",
-    "main.js.map": "/react_styled_components_portfolio/static/js/main.b9700fa3.chunk.js.map",
+    "main.js": "/react_styled_components_portfolio/static/js/main.a4e484a2.chunk.js",
+    "main.js.map": "/react_styled_components_portfolio/static/js/main.a4e484a2.chunk.js.map",
     "runtime-main.js": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js",
     "runtime-main.js.map": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js.map",
     "static/css/2.ec02d681.chunk.css": "/react_styled_components_portfolio/static/css/2.ec02d681.chunk.css",
@@ -17,8 +17,8 @@
     "static/media/MockImgCricket.cb72c762.png": "/react_styled_components_portfolio/static/media/MockImgCricket.cb72c762.png",
     "static/media/MockImgLacrosse.3267346b.png": "/react_styled_components_portfolio/static/media/MockImgLacrosse.3267346b.png",
     "static/media/MovieApp.50745bab.png": "/react_styled_components_portfolio/static/media/MovieApp.50745bab.png",
-    "static/media/Netfilm.11fa6b52.png": "/react_styled_components_portfolio/static/media/Netfilm.11fa6b52.png",
     "static/media/SkillImg.a830d030.png": "/react_styled_components_portfolio/static/media/SkillImg.a830d030.png",
+    "static/media/Y'sFilm_logo.16874459.png": "/react_styled_components_portfolio/static/media/Y'sFilm_logo.16874459.png",
     "static/media/about_me.abe96ec2.svg": "/react_styled_components_portfolio/static/media/about_me.abe96ec2.svg",
     "static/media/green_main_photo.7602d7b0.png": "/react_styled_components_portfolio/static/media/green_main_photo.7602d7b0.png",
     "static/media/video.0e5a79e6.mp4": "/react_styled_components_portfolio/static/media/video.0e5a79e6.mp4",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.0b01bb22.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c4760976.chunk.js",
-    "static/js/main.b9700fa3.chunk.js"
+    "static/js/main.a4e484a2.chunk.js"
   ]
 }
