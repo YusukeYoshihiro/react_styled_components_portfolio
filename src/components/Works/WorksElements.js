@@ -11,12 +11,12 @@ export const WorksContainer = styled.div`
 
    @media screen and (max-width: 768px){
     padding: 100px 0;
-     height: 1450px;
+     height: 100%;
    }
 
    @media screen and (max-width: 480px){
      padding: 100px 0;
-     height: 1500px;
+     height: 100%;
    }
 `;
 
