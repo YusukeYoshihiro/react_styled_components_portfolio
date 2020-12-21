@@ -53,10 +53,10 @@ const WorkDesc3 = () => {
                   {description}
                   <br/><br/>
                   <h3>&lt; Languages /&gt;</h3><br/>
-                   <p> React, React-Redux, Sass</p><br/>
+                   <p> React.js, Compound-Components, Styled-Components, Json/Data</p><br/>
 
                    <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> The Movie Database API, Firebase, Diagrams.net</p>
+                   <p> Firebase, Diagrams.net, XD</p>
                 </Subtitle>
                 <BtnWrap>
                   <Button 
