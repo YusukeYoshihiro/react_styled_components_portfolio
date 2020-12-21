@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Icon1 from '../../assets/images/Cricket_Logo.png';
 import Icon2 from '../../assets/images/Lacrosse_works.png';
-import Icon3 from '../../assets/images/Netfilm.png';
+import Icon3 from '../../assets/images/Y\'sFilm_logo.png';
 import Icon4 from '../../assets/images/workDescFour.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
