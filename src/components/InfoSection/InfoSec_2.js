@@ -1,6 +1,6 @@
 // Skills Part
 import React from 'react'
-import { Button } from '../ButtonElement'
+// import { Button } from '../ButtonElement'
 import SkillsImg from '../../assets/images/SkillImg.png';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css'; 
@@ -15,7 +15,7 @@ import {
   Heading,
   Subtitle,
   SkillsWrap,
-  BtnWrap,
+  // BtnWrap,
   ImgWrapSkill,
   Img,
 } from './InfoElements';
@@ -24,9 +24,9 @@ import {
 
 const  skills  = SkillsImg;
 
-const showCertifications = () => {
-  window.open('https://drive.google.com/file/d/19Y8pxOCzbDm0EsCGIM9lQmQma269hAJD/view?usp=sharing', '_blank')
-}
+// const showCertifications = () => {
+//   window.open('https://drive.google.com/file/d/19Y8pxOCzbDm0EsCGIM9lQmQma269hAJD/view?usp=sharing', '_blank')
+// }
 
 const InfoSec2 = ({
   lightBg,
@@ -40,9 +40,9 @@ const InfoSec2 = ({
   buttonLabel,
   // img,
   alt,
-  primary,
-  dark,
-  dark2,
+  // primary,
+  // dark,
+  // dark2,
 }) => {
   return (
     <>
@@ -65,7 +65,7 @@ const InfoSec2 = ({
                    <p> MongoDB, Firebase, Git, mySQL, Figma, <br/> Photoshop, illustrator, XD</p>
                  </SkillsWrap>
                 </Subtitle>
-                <BtnWrap onClick={()=> showCertifications}>
+                {/* <BtnWrap onClick={()=> showCertifications}>
                   <Button 
                     onClick={showCertifications}
                     smooth={true}
@@ -79,7 +79,7 @@ const InfoSec2 = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </ColumnSkill>
 

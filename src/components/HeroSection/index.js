@@ -15,7 +15,7 @@ import {
 } from './HeroElements'
 
 const showResume = () => {
-  window.open('https://drive.google.com/file/d/1CD_p2XpWaDRpjXwcUbjmrXaRZVGzNsmV/view?usp=sharing', '_blank')
+  window.open('https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/', '_blank')
 }
 
 const HeroSection = () => {
