@@ -23,7 +23,7 @@ import {
 const  myImg  = AboutMeImg;
 
 const showResume = () => {
-  window.open('https://drive.google.com/file/d/1cMu18VE7ykHaodXA50N5SGP1eduISHb2/view?usp=sharing', '_blank')
+  window.open('https://drive.google.com/file/d/1BnzYe0Odt0kIqjQ7twCncF7WjJvkg8FE/view?usp=sharing', '_blank')
 }
 
 

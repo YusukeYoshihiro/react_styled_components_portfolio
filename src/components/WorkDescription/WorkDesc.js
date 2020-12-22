@@ -61,8 +61,8 @@ const WorkDesc = () => {
                   <h3>&lt; Languages /&gt;</h3><br/>
                    <p> HTML, CSS, ES6, JQuery, JAVA</p><br/>
 
-                   <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
-                   <p> mySQL, Figma, Goole-Form</p>
+                   <h3>&lt; Database ＆ Tools /&gt;</h3><br/>
+                   <p> mySQL, Figma, Google-Form</p>
                 </Subtitle>
                 <BtnWrap>
                   <Button 

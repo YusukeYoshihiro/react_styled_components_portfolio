@@ -55,7 +55,7 @@ const WorkDesc4 = () => {
                   <h3>&lt; Languages /&gt;</h3><br/>
                    <p> React, React-Redux, Styled-Components, compound components</p><br/>
 
-                   <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
+                   <h3>&lt; Database ＆ Tools /&gt;</h3><br/>
                    <p> Firebase, Apple-Pay system, Figma</p>
                 </Subtitle>
                 <BtnWrap>

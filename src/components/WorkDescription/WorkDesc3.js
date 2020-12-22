@@ -55,7 +55,7 @@ const WorkDesc3 = () => {
                   <h3>&lt; Languages /&gt;</h3><br/>
                    <p> React.js, Compound-Components, Styled-Components, Json/Data</p><br/>
 
-                   <h3>&lt; Databese ＆ Tools /&gt;</h3><br/>
+                   <h3>&lt; Database ＆ Tools /&gt;</h3><br/>
                    <p> Firebase, Diagrams.net, XD</p>
                 </Subtitle>
                 <BtnWrap>
