@@ -26,7 +26,7 @@ const Works = () => {
 
   return (
     <WorksContainer name="works">
-      <WorksH1>My Works</WorksH1>
+      <WorksH1>My Projects</WorksH1>
       <WorksWrapper>
         <Link to={'/cricket'} onClick={handleClick}>
           <WorksCard data-aos="zoom-in" data-aos-duration="1000">
