@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 import { Link as LinkD } from 'react-router-dom';
+// import { Scroll } from 'react-scroll'
 
-export const WorksContainer = styled.div`
+var Scroll   = require('react-scroll');
+var Element  = Scroll.Element;
+
+
+export const WorksContainer = styled(Element)`
    height: 800px;
    display: flex;
    flex-direction: column;

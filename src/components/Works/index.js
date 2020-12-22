@@ -25,7 +25,7 @@ const Works = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <WorksContainer id="works">
+    <WorksContainer name="works">
       <WorksH1>My Works</WorksH1>
       <WorksWrapper>
         <Link to={'/cricket'} onClick={handleClick}>
@@ -48,7 +48,7 @@ const Works = () => {
           <WorksCard  data-aos="zoom-in" data-aos-duration="1000" >
             <WorksIcon src={Icon3} />
             <WorksH2>Movie App Project</WorksH2>
-            <WorksP>Built  movie app as own project with React, React-Redux. </WorksP>
+            <WorksP>Built movie app as own project with React.js, Firebase</WorksP>
           </WorksCard>
         </Link>
 

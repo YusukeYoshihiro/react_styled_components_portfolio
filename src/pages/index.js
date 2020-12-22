@@ -12,9 +12,6 @@ import Works  from '../components/Works/index';
 // import Footer from '../components/Footer';
 
 
-
-
-
 const Home = () =>{
   //  const [isOpen, setIsOpen]  = useState(false);
 

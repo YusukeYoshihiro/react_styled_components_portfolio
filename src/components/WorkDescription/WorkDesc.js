@@ -66,7 +66,6 @@ const WorkDesc = () => {
                 </Subtitle>
                 <BtnWrap>
                   <Button 
-                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -81,7 +80,6 @@ const WorkDesc = () => {
                   </Button>
                   <div></div>
                   <Button 
-                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}

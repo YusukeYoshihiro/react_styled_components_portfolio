@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React, { useState, useEffect } from 'react';
+// import {useHistory} from 'react-router-dom';
+
 // we can refer "react-icon" page to choose hamburger menu.
 import { FaBars } from 'react-icons/fa';
 // https://www.npmjs.com/package/react-icons
@@ -18,9 +20,21 @@ import {
   NavLinks,
 } from './NavbarElements';
 
+// var Scroll   = require('react-scroll');
+
+
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+  // var scroller = Scroll.scroller;
 
+
+  // let history = useHistory();
+
+  // function handleClick() {
+  //   history.push("/")
+  // }
+  
   const changeNav = () => {
     if (window.scrollY >= 80) {
       setScrollNav(true)
@@ -32,6 +46,11 @@ const Navbar = ({ toggle }) => {
   useEffect(() => {
     window.addEventListener('scroll', changeNav)
   }, [])
+
+  // useEffect(() => {
+  //   console.log(history.location.path)
+  //   scroller.scrollTo('banadai');
+  // }, [history.location.path])
   
   // https://www.npmjs.com/package/react-scroll
   const toggleHome = () => {
@@ -51,7 +70,8 @@ const Navbar = ({ toggle }) => {
             <NavMenu> {/* ul element */}
               <NavItem>  {/* li element */}
                 <NavLinks 
-                  to='about'
+                  to="about"
+                  // onClick={handleClick}
                   smooth={true}
                   duration={500}
                   spy={true}
