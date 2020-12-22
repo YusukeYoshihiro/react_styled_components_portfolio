@@ -14,6 +14,9 @@ import {
   ArrowRight
 } from './HeroElements'
 
+const showResume = () => {
+  window.open('https://drive.google.com/file/d/1CD_p2XpWaDRpjXwcUbjmrXaRZVGzNsmV/view?usp=sharing', '_blank')
+}
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -22,6 +25,7 @@ const HeroSection = () => {
     setHover(!hover)
   }
 
+  
   return (
     <HeroContainer id="home">
       <HeroBg>
@@ -32,7 +36,7 @@ const HeroSection = () => {
         <HeroP> Love Code, Cook and Hockey</HeroP>
         <HeroBtnWrapper>
           <Button
-          to="signup"
+          onClick={showResume}
           onMouseEnter={onHover}
           onMouseLeave={onHover}
           primary='true'

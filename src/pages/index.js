@@ -11,12 +11,6 @@ import Works  from '../components/Works/index';
 // import WorkDescription from '../components/WorkDescription';
 // import Footer from '../components/Footer';
 
-var Scroll   = require('react-scroll');
-var Element  = Scroll.Element;
-
-
-
-
 
 const Home = () =>{
   //  const [isOpen, setIsOpen]  = useState(false);

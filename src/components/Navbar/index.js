@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 import React, { useState, useEffect } from 'react';
-import {useHistory} from 'react-router-dom';
+// import {useHistory} from 'react-router-dom';
 
 // we can refer "react-icon" page to choose hamburger menu.
 import { FaBars } from 'react-icons/fa';
@@ -20,20 +20,20 @@ import {
   NavLinks,
 } from './NavbarElements';
 
-var Scroll   = require('react-scroll');
+// var Scroll   = require('react-scroll');
 
 
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
-  var scroller = Scroll.scroller;
+  // var scroller = Scroll.scroller;
 
 
-  let history = useHistory();
+  // let history = useHistory();
 
-  function handleClick() {
-    history.push("/")
-  }
+  // function handleClick() {
+  //   history.push("/")
+  // }
   
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -47,10 +47,10 @@ const Navbar = ({ toggle }) => {
     window.addEventListener('scroll', changeNav)
   }, [])
 
-  useEffect(() => {
-    console.log(history.location.path)
-    scroller.scrollTo('banadai');
-  }, [history.location.path])
+  // useEffect(() => {
+  //   console.log(history.location.path)
+  //   scroller.scrollTo('banadai');
+  // }, [history.location.path])
   
   // https://www.npmjs.com/package/react-scroll
   const toggleHome = () => {
@@ -71,7 +71,7 @@ const Navbar = ({ toggle }) => {
               <NavItem>  {/* li element */}
                 <NavLinks 
                   to="about"
-                  onClick={handleClick}
+                  // onClick={handleClick}
                   smooth={true}
                   duration={500}
                   spy={true}

@@ -23,8 +23,9 @@ import {
 const  myImg  = AboutMeImg;
 
 const showResume = () => {
-  window.open('https://www.linkedin.com/in/yusuke-yoshihiro-ab46491b2/', '_blank')
+  window.open('https://drive.google.com/file/d/1CD_p2XpWaDRpjXwcUbjmrXaRZVGzNsmV/view?usp=sharing', '_blank')
 }
+
 
 const InfoSec = ({
   lightBg,
@@ -57,6 +58,7 @@ const InfoSec = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
+                    onClick={showResume}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -65,7 +67,6 @@ const InfoSec = ({
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
-                    onClick={showResume}
                   > 
                     {buttonLabel}
                   </Button>
