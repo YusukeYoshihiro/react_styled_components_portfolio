@@ -14,7 +14,6 @@ import {
   WorksH2,
   WorksP,
   Link,
-  HashLink
 } from './WorksElements'
 
 // import {

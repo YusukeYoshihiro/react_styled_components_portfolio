@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 import React, { useState, useEffect } from 'react';
-// import {useHistory} from 'react-router-dom';
+// import {use} from 'react-router-dom';
 
 // we can refer "react-icon" page to choose hamburger menu.
 import { FaBars } from 'react-icons/fa';
@@ -29,10 +29,10 @@ const Navbar = ({ toggle }) => {
   // var scroller = Scroll.scroller;
 
 
-  // let history = useHistory();
+  // let  = use();
 
   // function handleClick() {
-  //   history.push("/")
+  //   .push("/")
   // }
   
   const changeNav = () => {
@@ -48,9 +48,9 @@ const Navbar = ({ toggle }) => {
   }, [])
 
   // useEffect(() => {
-  //   console.log(history.location.path)
+  //   console.log(.location.path)
   //   scroller.scrollTo('banadai');
-  // }, [history.location.path])
+  // }, [.location.path])
   
   // https://www.npmjs.com/package/react-scroll
   const toggleHome = () => {
