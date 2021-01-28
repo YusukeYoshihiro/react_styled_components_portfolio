@@ -1,17 +1,16 @@
+import GlobalStyle from './globalStyles';
 import React,{useState} from 'react';
 // import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route, useLocation } from 'react-router-dom';
 import Home from './pages';
 // import WorkDescription from './components/WorkDescription';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 import WorkDesc from './components/WorkDescription/WorkDesc';
 import WorkDesc2 from './components/WorkDescription/WorkDesc2';
 import WorkDesc3 from './components/WorkDescription/WorkDesc3';
 import WorkDesc4 from './components/WorkDescription/WorkDesc4';
-import GlobalStyle from './globalStyles';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -41,7 +40,7 @@ function App() {
         <Route path="/movieApp" component={WorkDesc3}  />
         <Route path="/ecommerce" component={WorkDesc4}  />
       </Switch>
-      <Footer/>
+      <Footer />
     {/* </Router> */}
     </>
   );

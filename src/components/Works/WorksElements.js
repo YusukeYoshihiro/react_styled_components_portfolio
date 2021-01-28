@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 import { Link as LinkD } from 'react-router-dom';
-// import { Scroll } from 'react-scroll'
-
+// import { Scroll } from 'react-scroll'\
 var Scroll   = require('react-scroll');
 var Element  = Scroll.Element;
-
 
 export const WorksContainer = styled(Element)`
    height: 800px;
@@ -43,10 +41,11 @@ export const WorksWrapper = styled.div`
      padding: 0 20px;
    }
 `;
+
 export const Link = styled(LinkD)`
   text-decoration: none;
   color:#010606;
-`
+`;
 
 export const WorksCard = styled.div`
    background: #fff;
