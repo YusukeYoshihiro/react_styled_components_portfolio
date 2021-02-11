@@ -40,7 +40,7 @@ const Works = () => {
             </WorksP>
           </WorksCard>
         </Link>
-
+        
         <Link to={'/lacrosse'} onClick={handleClick}>
           <WorksCard data-aos="zoom-in" data-aos-duration="1000">
             <WorksIcon src={Icon2} />
