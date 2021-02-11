@@ -32,6 +32,7 @@ function App() {
       <GlobalStyle />
        <Sidebar isOpen={isOpen} toggle={toggle}/>
        <Navbar toggle={toggle} />
+       {/* broewser router */}
       <Switch location={location} key={location.pathname}>
         <Route path="/" exact component={Home} />
         {/* <Route path="/workDesc" component={WorkDescription} /> */}
