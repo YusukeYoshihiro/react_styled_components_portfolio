@@ -34,11 +34,15 @@ const Home = () =>{
 
   return (
     <>
+      {/* Home */}
       <HeroSection />
+      {/* About Me */}
       <InfoSec {...homeObjOne} scroll={scrollNav}/>
+      {/* Skill */}
       <InfoSec_2 {...homeObjTwo} />
+      {/* Works */}
       <Works />
-      {/* <WorkDescription /> */}
+      {/* Contact */}
       <InfoSec_3 {...homeObjThree}/> 
     </>
   )
