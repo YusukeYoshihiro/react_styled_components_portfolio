@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.js": "/react_styled_components_portfolio/static/js/main.ef7b6e09.chunk.js",
-    "main.js.map": "/react_styled_components_portfolio/static/js/main.ef7b6e09.chunk.js.map",
+    "main.js": "/react_styled_components_portfolio/static/js/main.48872170.chunk.js",
+    "main.js.map": "/react_styled_components_portfolio/static/js/main.48872170.chunk.js.map",
     "runtime-main.js": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js",
     "runtime-main.js.map": "/react_styled_components_portfolio/static/js/runtime-main.0b01bb22.js.map",
     "static/css/2.ec02d681.chunk.css": "/react_styled_components_portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.b75012b8.chunk.js": "/react_styled_components_portfolio/static/js/2.b75012b8.chunk.js",
-    "static/js/2.b75012b8.chunk.js.map": "/react_styled_components_portfolio/static/js/2.b75012b8.chunk.js.map",
+    "static/js/2.2ef2c303.chunk.js": "/react_styled_components_portfolio/static/js/2.2ef2c303.chunk.js",
+    "static/js/2.2ef2c303.chunk.js.map": "/react_styled_components_portfolio/static/js/2.2ef2c303.chunk.js.map",
     "index.html": "/react_styled_components_portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/react_styled_components_portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/js/2.b75012b8.chunk.js.LICENSE.txt": "/react_styled_components_portfolio/static/js/2.b75012b8.chunk.js.LICENSE.txt",
+    "static/js/2.2ef2c303.chunk.js.LICENSE.txt": "/react_styled_components_portfolio/static/js/2.2ef2c303.chunk.js.LICENSE.txt",
     "static/media/Cricket_Logo.7d54bc47.png": "/react_styled_components_portfolio/static/media/Cricket_Logo.7d54bc47.png",
-    "static/media/FABE_LOGO.9c46aaec.png": "/react_styled_components_portfolio/static/media/FABE_LOGO.9c46aaec.png",
     "static/media/FABE_LOGO_2.1dfa5ded.png": "/react_styled_components_portfolio/static/media/FABE_LOGO_2.1dfa5ded.png",
     "static/media/Lacrosse_works.bb8bccd6.png": "/react_styled_components_portfolio/static/media/Lacrosse_works.bb8bccd6.png",
-    "static/media/MockImgCricket.cb72c762.png": "/react_styled_components_portfolio/static/media/MockImgCricket.cb72c762.png",
-    "static/media/MockImgLacrosse.3267346b.png": "/react_styled_components_portfolio/static/media/MockImgLacrosse.3267346b.png",
-    "static/media/MovieApp.50745bab.png": "/react_styled_components_portfolio/static/media/MovieApp.50745bab.png",
     "static/media/SkillImg.a830d030.png": "/react_styled_components_portfolio/static/media/SkillImg.a830d030.png",
     "static/media/Y'sFilm_logo.16874459.png": "/react_styled_components_portfolio/static/media/Y'sFilm_logo.16874459.png",
     "static/media/about_me.abe96ec2.svg": "/react_styled_components_portfolio/static/media/about_me.abe96ec2.svg",
@@ -27,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b01bb22.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.b75012b8.chunk.js",
-    "static/js/main.ef7b6e09.chunk.js"
+    "static/js/2.2ef2c303.chunk.js",
+    "static/js/main.48872170.chunk.js"
   ]
 }
